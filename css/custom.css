@@ -1,0 +1,356 @@
+
+/*.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+}*/
+
+
+			/* About Page */
+
+.hero--page-about-us {
+    background-image: url("../public/img/hero/about-header-main.jpg");
+}
+
+#about-intro {
+	width: 100%;
+	position: relative;
+	background-color: rgba(0,0,0,.1);
+}
+.main-area {
+	width:  90%;
+	margin: 0 auto;
+	padding: 3rem 3rem;
+}
+.dflex {
+	display: flex;
+}
+
+.about-intro-text {
+	width: 50%;
+	padding: 0 2rem;
+}
+
+.about-img-area {
+	width: 50%;
+	padding: 2rem;
+}
+
+.about-img-area img {
+	width: 100%;
+	height: auto;
+}
+
+.about-intro-text h2::after {
+	content: "";
+	width: 90px;
+	height: 3px;
+	background-color: #92278f;
+	display: block;
+}
+
+			/* Our Values and Mission Section */
+
+.manifest__value-list-item {
+    line-height: 1.7;
+}
+
+.manifest__section--expanded .manifest__heading {
+    padding-top: 3rem;
+}
+
+.manifest__value-list {
+    margin-left: 4rem;
+}
+
+			/* Our Culture. */
+
+.manifest__tagline {
+	padding: 0 3rem;
+}
+
+
+			/* Our Services */
+
+.hero--page-stories {
+	position: relative;
+}
+.service-bg-overlay {
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    background-size: cover;
+    background-position: center center;
+}
+
+			/* Services Boxes Area */
+
+#services-main-area > h4 {
+	text-align: center;
+	margin: 5rem;
+}
+#services-main-area .row {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#services-main-area .services-offered {
+	width: 100%;
+	position: relative;
+}
+
+#services-main-area .service-box {
+	width: 25%;
+	height: 100%;
+}
+
+			/* Our Services */
+
+.contentList-item {
+	position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 48.5%;
+    margin-bottom: 30px;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+    margin-right: 10px;
+    margin-right: 10px;
+    color: #234;
+    text-decoration: none;
+    background-position: 0 0;
+    box-shadow: 2px 2px 15px;
+}
+/*.contentList-wrapper:before,
+.technologies-item-link:before {
+    content: '';
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}*/
+.contentList-wrapper {
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.contentList-wrapper:before {
+	content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #f9f9f9;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.contentList-icon {
+	color: black;
+	position: relative;
+	text-align: center;
+	font-size: 3.5rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.contentList-title {
+    position: relative;
+}
+
+.contentList-title h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    color: #234;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contentList-description {
+    position: relative;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contentList-description p {
+    margin: 0;
+}
+
+.contentList-wrapper:hover .contentList-img--normal,
+.contentList-wrapper:hover:before {
+    opacity: 0;
+}
+
+.contentList-wrapper:hover .contentList-icon,
+.contentList-wrapper:hover .contentList-title h3,
+.contentList-wrapper:hover .contentList-description {
+	color: white;
+}
+
+			/* Media Queries According to installed theme*/
+
+			/* Home Page */
+
+	@media screen and (min-width: 320px) {
+		.hero__side-box {
+		background-color: rgba(255,255,255,.2);
+	    width: 90%;
+	    height: auto;
+	    border-radius: 10px;
+	    padding: 15px;
+	    text-align: center;
+	    transform: translate(5.5%, -20%);
+		}
+		.hero__message--big {
+			font-size: 2.5rem;
+		}
+		.call-to-action__links {
+			padding: 10px 30px;
+		}
+	}
+
+	@media screen and (min-width: 500px) {
+		.hero__side-box {
+		background-color: rgba(255,255,255,.2);
+	    width: 80%;
+	    height: auto;
+	    border-radius: 10px;
+	    padding: 20px;
+	    text-align: center;
+	    transform: translate(12%, -40%);
+		}
+	}
+
+	@media screen and (min-width: 1200px) {
+		.hero__side-box {
+		width: 30%;
+    	height: auto;
+	    position: absolute;
+	    background-color: rgba(255,255,255,.2);
+	    border-radius: 10px;
+	    padding: 20px;
+		}
+
+		.hero__message--big {
+    	/*font-size: 35px;*/
+    	font-size: 3rem;
+    	}
+	}
+
+
+			/* About Us Page */
+
+@media screen and (max-width: 1300px) {
+	
+	.main-area {
+	padding: 3rem 3rem;
+	}
+
+	.about-intro-text {
+		width: 40%;
+	}
+
+	.about-img-area {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	.main-area {
+	padding: 3rem 0;
+	}
+
+	.dflex {
+		display: block;
+	}
+
+	.about-intro-text {
+		width: 100%;
+		padding: 0 1rem;
+	}
+
+	.about-img-area {
+		width: 100%;
+		padding: 1rem;
+	}
+}
+
+			/* Media Query at 1199px */
+
+			/* Our Mission Section */
+
+@media screen and (max-width: 1199px) {
+	.manifest__section-side {
+		padding: 1rem 3.5rem;
+	}	
+}
+
+			/* Our Culture. */
+
+@media screen and (min-width: 1300px) {
+	.manifest__section--expanded {
+		padding-bottom: 3rem;
+	}
+	.manifest__methodology-list-term::after {
+		height: 10.5rem;
+	}
+	.manifest__tagline {
+    padding: 0 3rem;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	.manifest__tagline {
+    padding: 0 3rem;
+	}
+	dl.manifest__methodology-list {
+		display: flex;
+	}
+	.manifest__methodology-list-term::after {
+		height: 9rem;
+	}
+	.manifest__methodology-list-term {
+    padding-bottom: 12.5rem;
+	}
+}
+
+@media (max-width: 640px) {
+	.page-footer__list-link {
+	padding: 0 1rem;
+	line-height: 3rem;
+
+	}
+}
+
+			/* Installed theme Queries End */
+
+			/* Custom Queries Start */
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 1024px) {
+	
+}
+
+@media (max-width: 1440px) {
+	
+}
+
+			/* Custom Queries End */
