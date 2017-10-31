@@ -264,7 +264,7 @@
 	</ul>
 	<form action="" method="post" class="newsletter-form">
 	<fieldset class="newsletter-form__fieldset">
-		<legend class="newsletter-form__legend">Stay up to date</legend>
+		<legend class="newsletter-form__legend">Stay up to date</legend> 
 		<input name="email" type="email" class="newsletter-form__input inuit-u-p-" placeholder="Email Address" required>
 		<button type="submit" class="newsletter-form__submit inuit-btn" style="background-color: #92278f">Subscribe</button>
 	</fieldset>

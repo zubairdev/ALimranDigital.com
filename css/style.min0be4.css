@@ -3327,7 +3327,7 @@ img[height] {
 .page-footer::before {
     content: '';
     width: 12rem;
-    height: 12rem;
+    height: 8rem;
     line-height: 20.5rem;
     vertical-align: bottom;
     position: absolute;
@@ -3335,7 +3335,7 @@ img[height] {
     transform: translate(-50%, 0);
     top: 10%;
     background: url("../public/img/footer-logo.svg") no-repeat center top;
-    background-size: 5.5rem;
+    background-size: 7.5rem;
     font-size: 24px;
     font-size: 1.5rem;
     font-family: 'Gilroy-ExtraBold';
@@ -5290,7 +5290,7 @@ img[height] {
 
 @media (min-width: 1300px) {
     .manifest__section {
-        padding-bottom: 2rem
+        padding-bottom: 0rem
     }
 }
 
