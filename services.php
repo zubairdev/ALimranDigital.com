@@ -48,7 +48,7 @@
 
 			<a href="" class="contentList-item mr-3 mb-3">
 				<!-- <div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 371px;"> -->
-					<div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 400px;">
+				<div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 400px;">
 					<div class="contentList-icon">
 						<i class="fa fa-id-card-o" aria-hidden="true"></i>
 					</div>
