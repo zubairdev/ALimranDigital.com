@@ -276,6 +276,7 @@ footer .bottom_social a:hover i{color:#32aedc;}
 	text-align:center;
 	font-size:14px;
 	vertical-align:top;
+	float: left;
 }
 .weblisting_development li figure{
 	height:95px;
@@ -327,7 +328,7 @@ footer .bottom_social a:hover i{color:#32aedc;}
 	opacity:1;
 }
 .weblisting_development li:hover figure img{
-	opacity:0;
+	opacity:1;
 }
 .weblisting_development li:hover figure img.hover_web{
 	opacity:1;

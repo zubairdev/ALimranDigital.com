@@ -3314,13 +3314,13 @@ img[height] {
     padding: 7.375rem 0 0 0;
     position: relative;
     clear: both;
-    background-color: #131313
+    background-color: #131313;
 }
 
 @media (min-width: 1200px) {
     .page-footer {
         height: 20.15rem;
-        padding: 13rem 0 0 0
+        padding: 13rem 0 0 0;
     }
 }
 

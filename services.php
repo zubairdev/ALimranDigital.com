@@ -46,14 +46,14 @@
 
 			<!-- First Section -->
 
-			<a href="" class="contentList-item mr-3 mb-3">
+			<a href="developments.php" class="contentList-item mr-3 mb-3">
 				<!-- <div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 371px;"> -->
-				<div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 400px;">
+				<div class="contentList-wrapper" style="background-image: url(img/services_page/development-s_500x500.jpg); height: 400px;">
 					<div class="contentList-icon">
-						<i class="fa fa-id-card-o" aria-hidden="true"></i>
+						<i class="fa fa-code" aria-hidden="true"></i>
 					</div>
 					<div class="contentList-title">
-						<h3>Website Application & Development</h3>
+						<h3>Development Services</h3>
 					</div>
 					<div class="contentList-description">
 						<p>We provide all types of Web Development and Application for small businesses and large businesses, We are professional in our field and know better how to deal with you projct.</p>
@@ -63,13 +63,13 @@
 
 			<!-- Second Section -->
 
-			<a href="" class="contentList-item mb-3">
-				<div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 400px;">
+			<a href="designing.php" class="contentList-item mb-3">
+				<div class="contentList-wrapper" style="background-image: url(img/services_page/designing-s-500x500.jpg); height: 400px;">
 					<div class="contentList-icon">
-						<i class="fa fa-id-card-o" aria-hidden="true"></i>
+						<i class="fa fa-paint-brush" aria-hidden="true"></i>
 					</div>
 					<div class="contentList-title">
-						<h3>Website Application & Development</h3>
+						<h3>Designing Services</h3>
 					</div>
 					<div class="contentList-description">
 						<p>We provide all types of Web Development and Application for small businesses and large businesses, We are professional in our field and know better how to deal with you projct.</p>
@@ -79,13 +79,13 @@
 
 			<!-- Third Section -->
 
-			<a href="" class="contentList-item mr-3">
-				<div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 400px;">
+			<a href="marketing.php" class="contentList-item mr-3">
+				<div class="contentList-wrapper" style="background-image: url(img/services_page/d-marketing-500x500.jpg); height: 400px;">
 					<div class="contentList-icon">
-						<i class="fa fa-id-card-o" aria-hidden="true"></i>
+						<i class="fa fa-area-chart" aria-hidden="true"></i>
 					</div>
 					<div class="contentList-title">
-						<h3>Website Application & Development</h3>
+						<h3>Digital Marketing</h3>
 					</div>
 					<div class="contentList-description">
 						<p>We provide all types of Web Development and Application for small businesses and large businesses, We are professional in our field and know better how to deal with you projct.</p>
@@ -95,13 +95,13 @@
 
 			<!-- Fourth Section -->
 
-			<a href="" class="contentList-item">
-				<div class="contentList-wrapper" style="background-image: url(https://www.iflexion.com/files/content/service/background/1.jpg); height: 400px;">
+			<a href="branding.php" class="contentList-item">
+				<div class="contentList-wrapper" style="background-image: url(img/services_page/branding-s-500x500.jpg); height: 400px;">
 					<div class="contentList-icon">
-						<i class="fa fa-id-card-o" aria-hidden="true"></i>
+						<i class="fa fa-universal-access" aria-hidden="true"></i>
 					</div>
 					<div class="contentList-title">
-						<h3>Website Application & Development</h3>
+						<h3>Branding Services</h3>
 					</div>
 					<div class="contentList-description">
 						<p>We provide all types of Web Development and Application for small businesses and large businesses, We are professional in our field and know better how to deal with you projct.</p>
@@ -256,7 +256,7 @@
 	<script>
 	  window.matchMedia('(min-width: 1200px)').matches ? new Rellax('.rellax') : '';
 	</script>
-	<script>
+	<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -265,7 +265,7 @@
   ga('create', 'UA-43147528-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script> -->
 
 
 </body>

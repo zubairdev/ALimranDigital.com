@@ -103,7 +103,7 @@
 				Advertising, Marketing, Communication Strategies, Web Design, Mobile Apps, Design, Video Presentations, Social Media, Branding, Animations is what we do best.
 			</p>
 			<p class="call-to-action hero__message">
-				<a href="Developments.php" class="call-to-action__links" title="Find Out More">
+				<a href="developments.php" class="call-to-action__links" title="Find Out More">
 					Find Out More
 				</a>
 			</p>
@@ -121,7 +121,7 @@
 				Advertising, Marketing, Communication Strategies, Web Design, Mobile Apps, Design, Video Presentations, Social Media, Branding, Animations is what we do best.
 			</p>
 			<p class="call-to-action hero__message">
-				<a href="about-us.html" class="call-to-action__links" title="Find Out More">
+				<a href="designing.php" class="call-to-action__links" title="Find Out More">
 					Find Out More
 				</a>
 			</p>
@@ -139,7 +139,7 @@
 				Advertising, Marketing, Communication Strategies, Web Design, Mobile Apps, Design, Video Presentations, Social Media, Branding, Animations is what we do best.
 			</p>
 			<p class="call-to-action hero__message">
-				<a href="about-us.html" class="call-to-action__links" title="Find Out More">
+				<a href="marketing.php" class="call-to-action__links" title="Find Out More">
 					Find Out More
 				</a>
 			</p>
@@ -156,7 +156,7 @@
 				Advertising, Marketing, Communication Strategies, Web Design, Mobile Apps, Design, Video Presentations, Social Media, Branding, Animations is what we do best.
 			</p>
 			<p class="call-to-action hero__message">
-				<a href="about-us.html" class="call-to-action__links" title="Find Out More">
+				<a href="branding.php" class="call-to-action__links" title="Find Out More">
 					Find Out More
 				</a>
 			</p>

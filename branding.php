@@ -40,40 +40,36 @@
 		</video>
 	</div>
 
-<!--<div class="hero hero--smallest hero--page-about-us inuit-box inuit-box--flush">
-	<h2 class="rellax hero__message hero__message--center hero__message--bigger">
-		About Us.
-	</h2>
-	<button type="button" class="hero__chevron-south"></button>
-</div>-->
 
 <main class="manifest">
-
-        <!-- Services We Offered -->
 
 <div class="website_developemntview">
   <div class="container">
     <div class="heading_title tittle-width">
-      <h2>Services We Offered</h2>
-      <span>Use the power of Digitalization, Get your Website created come to Al-Imran Digital. We make it easy for everyone to create a beautiful, professional web presence. Get dedicated web developers from Al-Imran Digital to opt for a feature-rich website. We develop enterprise-grade websites for all businesses that hit for thousand of downloads.</span></div>
-    <ul class="weblisting_development">
-      <li><figure><img class="hover_web" src="public/img/development/dynamic-development.png"> <img alt="Dynamic Development" class="wow zoomIn animated" src="public/img/development/dynamic-development.png" style="visibility: visible;"></figure>
-        <strong>Dynamic Web</strong></li>
-      <li><figure><img class="hover_web" src="public/img/development/static-development-services.png"> <img alt="Static Development" class="wow zoomIn animated" src="public/img/development/static-development-services.png" style="visibility: visible;"></figure>
-        <strong>Static Web</strong></li>
-      <li><figure><img class="hover_web" src="public/img/development/app-development.png"> <img alt="App Development" class="wow zoomIn animated" src="public/img/development/app-development.png" style="visibility: visible;" height="80"></figure>
-        <strong>Mobile Apps</strong></li>
-        <li><figure><img class="hover_web" src="public/img/development/laravel-development.png"> <img alt="Laravel" class="wow zoomIn animated" src="public/img/development/laravel-development.png" style="visibility: visible;"></figure>
-        <strong>Laravel </strong></li>
+      <h2>Branding Services</h2>
+      <span>Al-Imran Digital is the reputable name in term of Marketing and Branding, We deliver exactly what your company need. We do follow some necessary steps to make effective strategy and Planning and then emplement some rules in order to getting excellent results.</span></div>
+    <ul class="weblisting_development no-border">
       <li>
-        <figure><img class="hover_web" src="public/img/development/php_developer.png"> <img alt="PHP" class="wow zoomIn animated" src="public/img/development/php_developer.png" style="visibility: visible;"></figure>
-        <strong>CMS</strong></li>
+        <figure><img alt="Search and Insights" class="wow zoomIn animated" src="public/img/marketing/search-and-insights.png" style="visibility: visible;"></figure>
+        <strong>Search &<span>Insights</span> </strong></li>
       <li>
-        <figure><img class="hover_web" src="public/img/development/cake-php-development.png"> <img alt="Cake" class="wow zoomIn animated" src="public/img/development/cake-php-development.png" style="visibility: visible;"></figure>
-        <strong>Cake </strong></li>
+        <figure><img alt="Brand Strategy" class="wow zoomIn animated" src="public/img/marketing/brand-strategy.png" style="visibility: visible;"></figure>
+        <strong>Brand<span>Strategy</span> </strong></li>
       <li>
-        <figure><img class="hover_web" src="public/img/development/codeigniter-development.png"> <img alt="Codeigniter" class="wow zoomIn animated" src="public/img/development/codeigniter-development.png" style="visibility: visible;"></figure>
-        <strong>Codeigniter </strong></li>
+        <figure><img alt="Brand Design" class="wow zoomIn animated" src="public/img/marketing/brand-design.png" style="visibility: visible;"></figure>
+        <strong>Brand<span>Design</span> </strong></li>
+      <li>
+        <figure><img alt="Visual Identity" class="wow zoomIn animated" src="public/img/marketing/visual identity.png" style="visibility: visible;"></figure>
+        <strong>Visual<span>Identity</span> </strong></li>
+      <li>
+        <figure><img alt="Iconography Services" class="wow zoomIn animated" src="public/img/marketing/iconography.png" style="visibility: visible;"></figure>
+        <strong>Iconography<span>Services</span> </strong></li>
+      <!-- <li>
+        <figure><img alt="Custom Web Design" class="wow zoomIn animated" src="public/img/marketing/custom-website.png" style="visibility: visible;"></figure>
+        <strong>Custom Web <span> Design</span> </strong></li>
+      <li>
+        <figure><img alt="Responsive Web Design" class="wow zoomIn animated" src="public/img/marketing/responsive-design-lg.png" style="visibility: visible;"></figure>
+        <strong>Responsive <span> Web Design</span> </strong></li> -->
     </ul>
   </div>
 </div>
@@ -124,80 +120,14 @@
   </div>
 </div>
 
-          <!-- Technologies We Use Section -->
-<div class="container">
-  <div class="technology-area">
-    <h2>Technologies We Use</h2>
-    <div class="technology-content">
-      <p>We are delivering extraordinary and satisfactory services for year with high level of trust and quality.</p>
-    </div>
-  </div>
-</div>
-
-<div id="technologies">
-  <div class="elements">
-    <ul>
-      <li>
-        <div class="imgDiv">
-          <img src="public/img/development/php_icon_1.png" alt="PHP" align="middle">
-        </div>
-        <a class="tablinks" onclick="technologyTabs(event, 'PHP')" id="defaultOpen" href=".">PHP</a>
-      </li>
-      <li>
-        <div class="imgDiv">
-          <img src="public/img/development/maj.png" alt="Magento" align="middle">
-        </div>
-        <a class="tablinks" onclick="technologyTabs(event, 'Magento')" href=".">Magento</a>
-      </li>
-      <li>
-        <div class="imgDiv">
-          <img src="public/img/development/java_icn.png" alt="JAVA" align="middle">
-        </div>
-        <a class="tablinks" onclick="technologyTabs(event, 'JAVA')" href="">JAVA</a>
-      </li>
-      <li>
-        <div class="imgDiv">
-          <img src="public/img/development/html5--5.png" alt="HTML/CSS" align="middle">
-        </div>
-        <a class="tablinks" onclick="technologyTabs(event, 'HTMLCSS')" href="">HTML/CSS</a>
-      </li>
-      <li>
-        <div class="imgDiv">
-          <img src="public/img/development/drupal-50x50.png" alt="DRUPAL">
-        </div>
-        <a class="tablinks" onclick="technologyTabs(event, 'DRUPAL')" href="">DRUPAL</a>
-      </li>
-      <li>
-        <div class="imgDiv">
-          <img src="public/img/development/asp.net.png" alt="ASP>NET">
-        </div>
-        <a class="tablinks" onclick="technologyTabs(event, 'ASP')" href="">ASP.NET</a>
-      </li>
-    </ul>
-  </div>
-</div>
 
 
-<div id="tech-content">
-  <div id="PHP" class="tabcontent">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur.</p>
-  </div>
-  <div id="Magento" class="tabcontent">
-    <p>cillum dolore eu fugiat nulla pariatur Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt green ut labore et dolore blue magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-  </div>
-</div>
 
+	
+</main>
 
 <?php include("public/include/footer.php");?>
 
-<script src="public/js/custom.js"></script>
 <script async src="public/js/script.min.js"></script>
 <script async src="public/js/rellax.min.js"></script>
 <script async src="public/js/a.js"></script>
