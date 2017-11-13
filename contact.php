@@ -26,7 +26,7 @@
 	<?php include("public/include/header.php");?>
 
 
-<div class="hero hero--smaller hero--blank inuit-box inuit-box--flush" >
+<div class="hero hero--smaller hero--blank inuit-box inuit-box--flush" id="career-hero" >
 	<h2 class="hero__message hero__message--big hero__message--upper">
 		Hey.
 		<span class="hero__message-sub">How may we assist you?</span>
@@ -111,8 +111,11 @@
 
 
 	<div class="map__location">
-		<address class="map__address map__address--iasi">
+		<!-- <address class="map__address map__address--iasi">
 			<h2 class="hero__message hero__message--bigg hero__message--center map__title">lahore.</h2>
+		</address> -->
+		<address style="margin-top: 2rem;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d425.2354684088132!2d74.317696!3d31.4998791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x506602f17e36855d!2sAl-Imran+Printers!5e0!3m2!1sen!2s!4v1510574367568" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</address>
 		<p class="map__para">
 			<a  class="map__link" target="_blank" href="https://www.google.com/maps/place/Al-Imran+Printers/@31.4998791,74.317696,20.5z/data=!4m8!1m2!2m1!1slahore+garden+town!3m4!1s0x0:0x506602f17e36855d!8m2!3d31.499993!4d74.317451">Office #514 Garden Heights, 8-Aibak Block New Garden Town Lahore Pakistan</a>

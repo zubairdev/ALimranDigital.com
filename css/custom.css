@@ -258,7 +258,7 @@ span {display: block; margin: 16px auto 0px; font-family: 'Calibri', 'Helvetica 
 
 div.technology-area {
 	text-align: center;
-	padding: 35px 0 0;
+	padding: 35px 0 25px;
 }
 div.technology-area h2 {
 	margin: 0 0 20px;
@@ -275,62 +275,55 @@ div.technology-area .technology-content p {
     max-width: 629px;
 }
 
-div#technologies {
+.tabs {
 	background-color: #3f4c6c;
-	margin-top: 2rem;
+	text-align: center;
 }
-div#technologies ul {
-	max-width: 900px;
-    margin: 0 auto;
+.tabs .tablinks {
+	background-color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-bottom: 1px solid white;
+	padding: 12px 35px;
+    max-height: 100px;
+    color: white;
 }
-div#technologies ul li {
-	list-style: none;
-	display: inline-block;
-	font-size: 14px;
-	width: 135px;
+.tabs .tablinks:hover {
+	border-bottom: 2.5px solid white;
 }
-div#technologies ul li .imgDiv {
-	width: 135px;
-	display: flex;
+.tablinks #asplineheight {
+	line-height: 3.7;
 }
-div#technologies ul li img {
+.tablinks .tabimg {
 	opacity: 0.5;
 	max-width: 100%;
-	margin: 0 auto;
 }
-div#technologies ul li a {
-	display: block;
-	padding: 10px;
-    margin: 0px 2px;
-    border-radius: 0px;
-    font-size: 17px;
-    font-family: 'Calibri';
-    outline: none;
-    color: #fff;
-    text-transform: uppercase;
-    /*width: 135px;*/
-    border-bottom: 1px solid #fff;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    text-align: center;
-    text-decoration: none;
-}
-
-div#tech-content {
+.tCA {
 	background-color: #3f4c6c;
-	padding: 1em;
 }
-div#tech-content .tabcontent {
-	display: none;
-    padding: 6px 12px;
-}
-
-div#tech-content .tabcontent p {
+.tCA .tabcontent {
 	color: white;
+	padding: 1.5rem;
+	display: none;
+}
+.tabcontent > img {
+	text-align: center;
+	margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+.tCA .tabcontent p {
+	font-family: 'calibri';
+	margin-bottom: 1rem;
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 2;
 }
 .active {
-	border-bottom: 3px solid white;
+	border-bottom: 2.5px solid white !important;
 }
 
 

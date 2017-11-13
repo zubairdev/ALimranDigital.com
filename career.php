@@ -33,7 +33,7 @@
 
 	</div>
 
-     <section style="background-color: black"><center>  <form enctype="multipart/form-data" method="POST" action="" style="width: 40%; ">
+     <section style="background-image: url(https://wallpaperbrowse.com/media/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);"><center>  <form enctype="multipart/form-data" method="POST" action="" style="width: 60%; ">
 
                     <div class="form-group">
                      
@@ -62,14 +62,14 @@
                        <div class="form-group">
                        
                        
-                          <input type="file" id="first-name" name="my_file" required="required" >
+                          <input type="file" id="choose-file" name="my_file" required="required" >
                        
                       </div>
                      
                       <div class="form-group">
                         
                          
-                           <input class="button button-cta xlarge" type="submit" name="submit" >
+                           <input class="button button-cta xlarge" id="sub-btn" type="submit" name="submit" >
                        
                       </div>
 
